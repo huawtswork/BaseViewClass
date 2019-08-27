@@ -19,6 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (BOOL)judgeIsIPhoneX;
 
+BOOL IsIPhoneX(void);
+
 UIImage *RefactorImage(UIImage *image, CGSize size);
 
 @end

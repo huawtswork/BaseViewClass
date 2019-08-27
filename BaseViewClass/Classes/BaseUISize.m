@@ -47,6 +47,15 @@ BOOL kIsIPhoneX = NO;
     return NO;
 }
 
+BOOL IsIPhoneX(void){
+    if (@available(iOS 11.0, *)) {
+        UIWindow *window = [UIApplication sharedApplication].delegate.window;
+        if (window.safeAreaInsets.left > 0 || window.safeAreaInsets.bottom > 0) {
+            return YES;
+        }
+    }
+    return NO;
+}
 
 UIImage *RefactorImage(UIImage *image, CGSize size)
 {

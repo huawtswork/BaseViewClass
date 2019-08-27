@@ -2,6 +2,8 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+project 'BaseViewClass.xcworkspace'
+
 target 'BaseViewClass_Example' do
   pod 'BaseViewClass', :path => '../'
 
