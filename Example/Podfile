@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BaseViewClass_Example' do
+  pod 'BaseViewClass', :path => '../'
+
+  target 'BaseViewClass_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

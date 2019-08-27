@@ -1,0 +1,6 @@
+framework module Pods_BaseViewClass_Tests {
+  umbrella header "Pods-BaseViewClass_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

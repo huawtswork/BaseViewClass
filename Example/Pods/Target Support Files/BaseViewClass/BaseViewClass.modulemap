@@ -1,0 +1,6 @@
+framework module BaseViewClass {
+  umbrella header "BaseViewClass-umbrella.h"
+
+  export *
+  module * { export * }
+}
