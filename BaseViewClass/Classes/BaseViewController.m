@@ -30,11 +30,6 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
         [self.navigationController setNavigationBarHidden:NO animated:YES];
     }
      [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:NO];
-    if (self.navigationController.viewControllers.firstObject == self) {
-        self.navigationController.interactivePopGestureRecognizer.enabled = NO;
-    }else{
-        self.navigationController.interactivePopGestureRecognizer.enabled = self.interactivePopGestureRecognizerEnabled;
-    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
@@ -42,7 +37,6 @@ static NSMutableDictionary *navigationBarBackgroundImageDictionary = nil;
     [super viewDidAppear:animated];
     self.viewAppearTime = (int64_t)([[NSDate date] timeIntervalSince1970] * 1000);
 }
-
 
 -(void)dealloc{
     [[NSNotificationCenter defaultCenter] removeObserver:self];

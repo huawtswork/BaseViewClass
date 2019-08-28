@@ -7,6 +7,7 @@
 FOUNDATION_EXPORT double BaseViewClassVersionNumber;
 FOUNDATION_EXPORT const unsigned char BaseViewClassVersionString[];
 
+#import <BaseViewClass/BaseDefines.h>
 #import <BaseViewClass/BaseUISize.h>
 #import <BaseViewClass/BaseNavigationBar.h>
 #import <BaseViewClass/BaseNavigationController.h>
@@ -16,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char BaseViewClassVersionString[];
 
 #else
 
+#import "BaseDefines.h"
 #import "BaseUISize.h"
 #import "BaseNavigationBar.h"
 #import "BaseNavigationController.h"

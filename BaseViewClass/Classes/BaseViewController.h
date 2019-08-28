@@ -2,16 +2,25 @@
 #import <UIKit/UIKit.h>
 #import "ControllerPopByInteractivePopGestureRecognizer.h"
 
+
+/**
+ 拦截左侧返回按钮
+ */
 @protocol BaseLeftBarrierDelegate <NSObject>
 
 @optional
+
+/**
+ 返回代理
+ */
 - (void)goBackListener;
 
 @end
 
 
-//基类视图控制器
-
+/**
+ 基类控制器
+ */
 @interface BaseViewController : UIViewController< ControllerPopByInteractivePopGestureRecognizer>
 
 /**
