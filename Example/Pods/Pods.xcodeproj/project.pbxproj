@@ -7,30 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01FF2A851C17EC438767A5CA5878DBD4 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970B927FABA4AF2762AA95D8B7EDAAE3 /* BaseTabBarViewController.m */; };
-		0A0D7E27A426FDE4F1F797990AF97DA2 /* BaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DCCEAA0D6910ACFC5DF2D6C691F2010 /* BaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C0BEA5AFEB8589D3FB444850ACD65C2 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EBAE1E2E912A8B91D3AD2F87B082D8 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2262906BFAFC1FEFF7D05820266717D5 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6C2C59F4D6F195AE6292CA64293AAB /* BaseNavigationController.m */; };
-		279F503D0409ACF531C4911F94E73C72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */; };
+		0863DC943171BC842883DBD2D96055E3 /* BaseViewClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9935EC8B9CC37235557F79AD7E963744 /* BaseViewClass-dummy.m */; };
+		183987CAA73BDDA2FA6EE3107AEF0387 /* BaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDFEB687F2B3B0D8911A07ABF688087 /* BaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18CD85AA726762E0DAFC5404ECEBBE11 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DFBAB7099036424467BDC8F376719 /* BaseNavigationController.m */; };
+		2252DEA328F4D9616ADAD214D3D89C23 /* BaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AF105A515D4497C39D9FE0E7BC2747 /* BaseTabBarViewController.m */; };
+		243427A0F9252E37F8EF48833FA4985E /* BaseUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = 273F75CC4004655090167F896534C6DD /* BaseUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B260146547E1BC81B0E10FCAF00096E /* Pods-BaseViewClass_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6728F423C3B89AE944C448D6F319F94D /* Pods-BaseViewClass_Tests-dummy.m */; };
-		2C8C24EDADABA9F7F5FA6F7EC3ED0B3D /* BaseImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B585C206432F4BA9ABA6B8A4183A679B /* BaseImage.bundle */; };
-		6A3AF881EBABA0F824C643F071A54384 /* BaseViewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 75958FD3100CF16EA4A6C37C8FB97E34 /* BaseViewClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		959DDBBB606A71636A31773A08B3FAF2 /* BaseViewClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFBEF96F003D3184EC872D1C7E53A30 /* BaseViewClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99D8B7E9E9AF9A24C6BA641903B51E60 /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7285FE6E9A764D9E26E6530EB553DE99 /* ControllerPopByInteractivePopGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F978B81A42B176D35DC2A121710DC5D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398088B221B0FE50B00AAFD55B8DADB /* BaseViewController.m */; };
+		54F3E7EEB201A5AFB92050D7759EA2EA /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBDF639A88471713D590FCEB9807EED /* ControllerPopByInteractivePopGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A8A3E1445CDF5EAE58A9390EECD4FF0 /* BaseViewClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7FFA188330AEA4B4717CCBD4614D72 /* BaseViewClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		741FA8B08885712E54017041FB60B5C8 /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A49AB29246AD12FDB42093E7C953E99 /* BaseNavigationBar.m */; };
+		7C59809DB7F69018990D6DCA311AF0E8 /* BaseImage.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5B290D2CC9F494B1063B2F291E1ADEF8 /* BaseImage.bundle */; };
+		7DC599CD2F25B4450E4545BAD04617F2 /* BaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C66227A1AA85AF9DA4D16BB8B7E1304 /* BaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A37A373744245E6D95AE4412342320C /* Pods-BaseViewClass_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3F8A6A5E831F2D398BE38E76A14A2B /* Pods-BaseViewClass_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A223F5B8565D7B69AB84CD58A1A14649 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931894E20356386AECC04655A69ED48F /* BaseViewController.m */; };
-		AB886C62A70A14DD70B3F4E7EE78D12B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */; };
-		B7C44105C44D2C6A91CE8FF329D03E18 /* BaseTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 081C5A6D514C7DC45A71B60ED9154FC2 /* BaseTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B8BFD6D5A5B6B371BB326626559DD8DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
-		BE60BABA33E3ADC7C81BDEEAC94B1205 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
-		C0BB5060D512DF6C3A39EDDDDFA6CA5E /* BaseUISize.h in Headers */ = {isa = PBXBuildFile; fileRef = 852136A5779790A4DF113130A61032D7 /* BaseUISize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C1A3A74CE55F6303D70EA3756248D0C8 /* BaseViewClass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C254BC617E535BF528E03B535CFB13A /* BaseViewClass-dummy.m */; };
-		C3AD28413F573D4DF7468BE056A592E7 /* BaseUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 64BEBA872D72903450E52CA451D01EDD /* BaseUISize.m */; };
-		C85277F120DC31C94E2071C9F81D9481 /* BaseNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 321C2F2A3212914346297AF9497A13F9 /* BaseNavigationBar.m */; };
+		BB077A8F6C4E9A108FABE8FD3EF60E34 /* BaseUISize.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FEC7232F17D554C5A3757820333629 /* BaseUISize.m */; };
+		BEF378783703F4B386B71974BDF569A4 /* BaseNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BF1F7A9193C8DA3DBEE4C9ABA554B81 /* BaseNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC11816DEE211CFDD73983673803F0EE /* BaseViewClass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1435E07137F6E68AE24A8537E06378A /* BaseViewClass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD7CCA73A1374E0E507B2C07C9FBBF78 /* BaseDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3472262270E297FE1510B296FBCF2C02 /* BaseDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDE76B7B4075E096DF245DB4D506B0DB /* Pods-BaseViewClass_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B54AA45A6287F327032532A8EE98496 /* Pods-BaseViewClass_Example-dummy.m */; };
+		E0FCCD7F1042BD18500F236E520108C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */; };
+		E280A4B92AD86CACEFCBE0D5A9754B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		E2C0F97362664649D2B0BAC1C9EC4E8E /* BaseTabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 928D494790097199CEF605EEDA17DEEA /* BaseTabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F05C49EDBBEE7304DA3B22EB5650087B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
-		F0F32C95B7355C38BA8EF60B247AEE5D /* BaseNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4685B4C014D01572DD320BACD72A86EE /* BaseNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F402E5C118076359CD732808C9F066D5 /* Pods-BaseViewClass_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F65EB9C06466A3A60AE1A5C6798A6B93 /* Pods-BaseViewClass_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7DC630EA422E6EBA505B3866AD8A051 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,51 +53,51 @@
 
 /* Begin PBXFileReference section */
 		01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		048C0FE376C0A246DBDB80DAD17B12A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		081C5A6D514C7DC45A71B60ED9154FC2 /* BaseTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTabBarViewController.h; path = BaseViewClass/Classes/BaseTabBarViewController.h; sourceTree = "<group>"; };
-		1A5DC13BB1AEAA1B89EA6F0E190110C7 /* Pods_BaseViewClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseViewClass_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16FEC7232F17D554C5A3757820333629 /* BaseUISize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseUISize.m; path = BaseViewClass/Classes/BaseUISize.m; sourceTree = "<group>"; };
+		1A5DC13BB1AEAA1B89EA6F0E190110C7 /* Pods_BaseViewClass_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseViewClass_Tests.framework; path = "Pods-BaseViewClass_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		256DFBAB7099036424467BDC8F376719 /* BaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = BaseViewClass/Classes/BaseNavigationController.m; sourceTree = "<group>"; };
+		273F75CC4004655090167F896534C6DD /* BaseUISize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseUISize.h; path = BaseViewClass/Classes/BaseUISize.h; sourceTree = "<group>"; };
 		276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		27CB4CA4FCBCE2425C16068791B5932C /* Pods-BaseViewClass_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BaseViewClass_Example-frameworks.sh"; sourceTree = "<group>"; };
+		28AF105A515D4497C39D9FE0E7BC2747 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTabBarViewController.m; path = BaseViewClass/Classes/BaseTabBarViewController.m; sourceTree = "<group>"; };
+		29411A5FB7A06F485FEA2936B88964FB /* BaseViewClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BaseViewClass-Info.plist"; sourceTree = "<group>"; };
 		306CA8029F47D4262A0AFDD7D96A1BEC /* Pods-BaseViewClass_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseViewClass_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		321C2F2A3212914346297AF9497A13F9 /* BaseNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationBar.m; path = BaseViewClass/Classes/BaseNavigationBar.m; sourceTree = "<group>"; };
+		3472262270E297FE1510B296FBCF2C02 /* BaseDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseDefines.h; path = BaseViewClass/Classes/BaseDefines.h; sourceTree = "<group>"; };
+		3B7FFA188330AEA4B4717CCBD4614D72 /* BaseViewClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewClass.h; path = BaseViewClass/Classes/BaseViewClass.h; sourceTree = "<group>"; };
 		4219C9B8A98A78512D6EB542CA8A7FA1 /* Pods-BaseViewClass_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseViewClass_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4685B4C014D01572DD320BACD72A86EE /* BaseNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseNavigationBar.h; path = BaseViewClass/Classes/BaseNavigationBar.h; sourceTree = "<group>"; };
 		493738D1A64AC24C479E88EC2C558CA9 /* Pods-BaseViewClass_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BaseViewClass_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A49AB29246AD12FDB42093E7C953E99 /* BaseNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationBar.m; path = BaseViewClass/Classes/BaseNavigationBar.m; sourceTree = "<group>"; };
 		4A88810CF100E95131FC4B1B8C392343 /* Pods-BaseViewClass_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseViewClass_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4B54AA45A6287F327032532A8EE98496 /* Pods-BaseViewClass_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseViewClass_Example-dummy.m"; sourceTree = "<group>"; };
-		5E6C2C59F4D6F195AE6292CA64293AAB /* BaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseNavigationController.m; path = BaseViewClass/Classes/BaseNavigationController.m; sourceTree = "<group>"; };
-		64BEBA872D72903450E52CA451D01EDD /* BaseUISize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseUISize.m; path = BaseViewClass/Classes/BaseUISize.m; sourceTree = "<group>"; };
+		5B290D2CC9F494B1063B2F291E1ADEF8 /* BaseImage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BaseImage.bundle; path = BaseViewClass/BaseImage.bundle; sourceTree = "<group>"; };
+		5BBCC45BAB64F1793E22908D78A4AF79 /* BaseViewClass.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseViewClass.xcconfig; sourceTree = "<group>"; };
 		66081638F16C5F608E0DD62B3BFCDE71 /* Pods-BaseViewClass_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseViewClass_Example.modulemap"; sourceTree = "<group>"; };
 		6728F423C3B89AE944C448D6F319F94D /* Pods-BaseViewClass_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BaseViewClass_Tests-dummy.m"; sourceTree = "<group>"; };
 		706DF5880AAE8F7736ADF773E3E2F799 /* Pods-BaseViewClass_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewClass_Tests-Info.plist"; sourceTree = "<group>"; };
-		7285FE6E9A764D9E26E6530EB553DE99 /* ControllerPopByInteractivePopGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ControllerPopByInteractivePopGestureRecognizer.h; path = BaseViewClass/Classes/ControllerPopByInteractivePopGestureRecognizer.h; sourceTree = "<group>"; };
-		75958FD3100CF16EA4A6C37C8FB97E34 /* BaseViewClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewClass.h; path = BaseViewClass/Classes/BaseViewClass.h; sourceTree = "<group>"; };
-		7DCCEAA0D6910ACFC5DF2D6C691F2010 /* BaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = BaseViewClass/Classes/BaseNavigationController.h; sourceTree = "<group>"; };
-		7E06324641046C0D590AF18B04C15058 /* Pods_BaseViewClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaseViewClass_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A3FCDEC31CE1C111BBAD66A7E2C4BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7BF1F7A9193C8DA3DBEE4C9ABA554B81 /* BaseNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseNavigationBar.h; path = BaseViewClass/Classes/BaseNavigationBar.h; sourceTree = "<group>"; };
+		7E06324641046C0D590AF18B04C15058 /* Pods_BaseViewClass_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BaseViewClass_Example.framework; path = "Pods-BaseViewClass_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F3F8A6A5E831F2D398BE38E76A14A2B /* Pods-BaseViewClass_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseViewClass_Tests-umbrella.h"; sourceTree = "<group>"; };
 		81BE275237DF0D4D2F31EB2503D2E402 /* Pods-BaseViewClass_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BaseViewClass_Tests.modulemap"; sourceTree = "<group>"; };
-		832975E75A7865959F1422CB8BBE6EE3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		845C795B6CA5D297B3FEE99D5038AEB0 /* BaseViewClass.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BaseViewClass.xcconfig; sourceTree = "<group>"; };
-		852136A5779790A4DF113130A61032D7 /* BaseUISize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseUISize.h; path = BaseViewClass/Classes/BaseUISize.h; sourceTree = "<group>"; };
-		8750F5C4DDD84D616E997B60AC6DEE51 /* BaseViewClass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BaseViewClass-Info.plist"; sourceTree = "<group>"; };
-		895C6F777CC5996229A404BDD8ED753D /* BaseViewClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseViewClass-prefix.pch"; sourceTree = "<group>"; };
-		8C254BC617E535BF528E03B535CFB13A /* BaseViewClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseViewClass-dummy.m"; sourceTree = "<group>"; };
-		931894E20356386AECC04655A69ED48F /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BaseViewClass/Classes/BaseViewController.m; sourceTree = "<group>"; };
-		970B927FABA4AF2762AA95D8B7EDAAE3 /* BaseTabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseTabBarViewController.m; path = BaseViewClass/Classes/BaseTabBarViewController.m; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACFBEF96F003D3184EC872D1C7E53A30 /* BaseViewClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseViewClass-umbrella.h"; sourceTree = "<group>"; };
-		B442E7341FE7EFE44E7AD6DF251DCE07 /* BaseViewClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BaseViewClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B585C206432F4BA9ABA6B8A4183A679B /* BaseImage.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BaseImage.bundle; path = BaseViewClass/BaseImage.bundle; sourceTree = "<group>"; };
+		8398088B221B0FE50B00AAFD55B8DADB /* BaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BaseViewClass/Classes/BaseViewController.m; sourceTree = "<group>"; };
+		8C66227A1AA85AF9DA4D16BB8B7E1304 /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BaseViewClass/Classes/BaseViewController.h; sourceTree = "<group>"; };
+		928D494790097199CEF605EEDA17DEEA /* BaseTabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseTabBarViewController.h; path = BaseViewClass/Classes/BaseTabBarViewController.h; sourceTree = "<group>"; };
+		9935EC8B9CC37235557F79AD7E963744 /* BaseViewClass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BaseViewClass-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1435E07137F6E68AE24A8537E06378A /* BaseViewClass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseViewClass-umbrella.h"; sourceTree = "<group>"; };
 		B6AF6165CF44FEBE163C8142B799F175 /* Pods-BaseViewClass_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseViewClass_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C852C7922316739000A72FD3 /* BaseDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseDefines.h; path = BaseViewClass/Classes/BaseDefines.h; sourceTree = "<group>"; };
+		BEBDF639A88471713D590FCEB9807EED /* ControllerPopByInteractivePopGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ControllerPopByInteractivePopGestureRecognizer.h; path = BaseViewClass/Classes/ControllerPopByInteractivePopGestureRecognizer.h; sourceTree = "<group>"; };
+		CCDFEB687F2B3B0D8911A07ABF688087 /* BaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseNavigationController.h; path = BaseViewClass/Classes/BaseNavigationController.h; sourceTree = "<group>"; };
+		CFC1557D2B6736BBBBEADDB506B10FB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CFC16BD3520FF5227D18C468EC778D29 /* Pods-BaseViewClass_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BaseViewClass_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D4EBAE1E2E912A8B91D3AD2F87B082D8 /* BaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BaseViewClass/Classes/BaseViewController.h; sourceTree = "<group>"; };
+		D27CEB74BD75BD908BF065B480D6E016 /* BaseViewClass-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BaseViewClass-prefix.pch"; sourceTree = "<group>"; };
 		DEB28E81FD4F30EFB96DA10DF9C7BF23 /* Pods-BaseViewClass_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewClass_Example-Info.plist"; sourceTree = "<group>"; };
-		E86C82338A045741DEFE098E501BF91A /* BaseViewClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseViewClass.modulemap; sourceTree = "<group>"; };
-		EB87D17CA6BDEDA22CFC55B0AE225CB6 /* BaseViewClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BaseViewClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07A097CA3732619678E058273BDC271 /* BaseViewClass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BaseViewClass.modulemap; sourceTree = "<group>"; };
+		EB87D17CA6BDEDA22CFC55B0AE225CB6 /* BaseViewClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BaseViewClass.framework; path = BaseViewClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F322EFF8D84898B9A8A0398CC7360B16 /* Pods-BaseViewClass_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewClass_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F65EB9C06466A3A60AE1A5C6798A6B93 /* Pods-BaseViewClass_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BaseViewClass_Example-umbrella.h"; sourceTree = "<group>"; };
 		F76E8A7D3C0DEAE08843C19FE27B586B /* Pods-BaseViewClass_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BaseViewClass_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCBEE275E7EF9DAEF7F1A6A68444A565 /* BaseViewClass.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BaseViewClass.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FD608BCCF279B1277BB911F33106997F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
@@ -109,13 +110,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6B53CE31FB5C5DCB7DA2617FBAE40B5 /* Frameworks */ = {
+		E5B65FD5B3D94E3486A6B56615894F39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				279F503D0409ACF531C4911F94E73C72 /* CoreGraphics.framework in Frameworks */,
-				BE60BABA33E3ADC7C81BDEEAC94B1205 /* Foundation.framework in Frameworks */,
-				AB886C62A70A14DD70B3F4E7EE78D12B /* UIKit.framework in Frameworks */,
+				F7DC630EA422E6EBA505B3866AD8A051 /* CoreGraphics.framework in Frameworks */,
+				E280A4B92AD86CACEFCBE0D5A9754B77 /* Foundation.framework in Frameworks */,
+				E0FCCD7F1042BD18500F236E520108C7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +131,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01D39131C51302B5369B99D0AF9365FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E07A097CA3732619678E058273BDC271 /* BaseViewClass.modulemap */,
+				5BBCC45BAB64F1793E22908D78A4AF79 /* BaseViewClass.xcconfig */,
+				9935EC8B9CC37235557F79AD7E963744 /* BaseViewClass-dummy.m */,
+				29411A5FB7A06F485FEA2936B88964FB /* BaseViewClass-Info.plist */,
+				D27CEB74BD75BD908BF065B480D6E016 /* BaseViewClass-prefix.pch */,
+				A1435E07137F6E68AE24A8537E06378A /* BaseViewClass-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BaseViewClass";
+			sourceTree = "<group>";
+		};
 		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,54 +153,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		071AA33BDBF9DA2A1582A81A1E6E7A34 /* Development Pods */ = {
+		56AF8A76577B39AD858FCD11025E992D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8BBD1A61A57A11F8E3C5D4BE41581F7E /* BaseViewClass */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		1FF0C3E60FE8E6B0CA2681AF93DBF5B4 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B585C206432F4BA9ABA6B8A4183A679B /* BaseImage.bundle */,
+				5B290D2CC9F494B1063B2F291E1ADEF8 /* BaseImage.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		8BBD1A61A57A11F8E3C5D4BE41581F7E /* BaseViewClass */ = {
+		7304555AF54FF34EB8ED596F345789A7 /* BaseViewClass */ = {
 			isa = PBXGroup;
 			children = (
-				4685B4C014D01572DD320BACD72A86EE /* BaseNavigationBar.h */,
-				321C2F2A3212914346297AF9497A13F9 /* BaseNavigationBar.m */,
-				7DCCEAA0D6910ACFC5DF2D6C691F2010 /* BaseNavigationController.h */,
-				5E6C2C59F4D6F195AE6292CA64293AAB /* BaseNavigationController.m */,
-				081C5A6D514C7DC45A71B60ED9154FC2 /* BaseTabBarViewController.h */,
-				970B927FABA4AF2762AA95D8B7EDAAE3 /* BaseTabBarViewController.m */,
-				852136A5779790A4DF113130A61032D7 /* BaseUISize.h */,
-				64BEBA872D72903450E52CA451D01EDD /* BaseUISize.m */,
-				75958FD3100CF16EA4A6C37C8FB97E34 /* BaseViewClass.h */,
-				D4EBAE1E2E912A8B91D3AD2F87B082D8 /* BaseViewController.h */,
-				931894E20356386AECC04655A69ED48F /* BaseViewController.m */,
-				7285FE6E9A764D9E26E6530EB553DE99 /* ControllerPopByInteractivePopGestureRecognizer.h */,
-				9D5EA0C0E3A5D73478571ADE79A3E1E6 /* Pod */,
-				1FF0C3E60FE8E6B0CA2681AF93DBF5B4 /* Resources */,
-				AC3BDDD7BC81812B8815CA8CFE42B77C /* Support Files */,
-				C852C7922316739000A72FD3 /* BaseDefines.h */,
+				3472262270E297FE1510B296FBCF2C02 /* BaseDefines.h */,
+				7BF1F7A9193C8DA3DBEE4C9ABA554B81 /* BaseNavigationBar.h */,
+				4A49AB29246AD12FDB42093E7C953E99 /* BaseNavigationBar.m */,
+				CCDFEB687F2B3B0D8911A07ABF688087 /* BaseNavigationController.h */,
+				256DFBAB7099036424467BDC8F376719 /* BaseNavigationController.m */,
+				928D494790097199CEF605EEDA17DEEA /* BaseTabBarViewController.h */,
+				28AF105A515D4497C39D9FE0E7BC2747 /* BaseTabBarViewController.m */,
+				273F75CC4004655090167F896534C6DD /* BaseUISize.h */,
+				16FEC7232F17D554C5A3757820333629 /* BaseUISize.m */,
+				3B7FFA188330AEA4B4717CCBD4614D72 /* BaseViewClass.h */,
+				8C66227A1AA85AF9DA4D16BB8B7E1304 /* BaseViewController.h */,
+				8398088B221B0FE50B00AAFD55B8DADB /* BaseViewController.m */,
+				BEBDF639A88471713D590FCEB9807EED /* ControllerPopByInteractivePopGestureRecognizer.h */,
+				C59AFF9E5A982EC25EDB2675687BE098 /* Pod */,
+				56AF8A76577B39AD858FCD11025E992D /* Resources */,
+				01D39131C51302B5369B99D0AF9365FC /* Support Files */,
 			);
 			name = BaseViewClass;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9D5EA0C0E3A5D73478571ADE79A3E1E6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B442E7341FE7EFE44E7AD6DF251DCE07 /* BaseViewClass.podspec */,
-				048C0FE376C0A246DBDB80DAD17B12A2 /* LICENSE */,
-				832975E75A7865959F1422CB8BBE6EE3 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		ABE8076CBFEE71A3B199C34F20F66745 /* iOS */ = {
@@ -196,20 +193,6 @@
 				01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		AC3BDDD7BC81812B8815CA8CFE42B77C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E86C82338A045741DEFE098E501BF91A /* BaseViewClass.modulemap */,
-				845C795B6CA5D297B3FEE99D5038AEB0 /* BaseViewClass.xcconfig */,
-				8C254BC617E535BF528E03B535CFB13A /* BaseViewClass-dummy.m */,
-				8750F5C4DDD84D616E997B60AC6DEE51 /* BaseViewClass-Info.plist */,
-				895C6F777CC5996229A404BDD8ED753D /* BaseViewClass-prefix.pch */,
-				ACFBEF96F003D3184EC872D1C7E53A30 /* BaseViewClass-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/BaseViewClass";
 			sourceTree = "<group>";
 		};
 		AF440ED2C8CCD4557F723E5D66DB05ED /* Pods-BaseViewClass_Tests */ = {
@@ -228,6 +211,24 @@
 			path = "Target Support Files/Pods-BaseViewClass_Tests";
 			sourceTree = "<group>";
 		};
+		BFBC20BFFB2B018361341B3779A77890 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7304555AF54FF34EB8ED596F345789A7 /* BaseViewClass */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C59AFF9E5A982EC25EDB2675687BE098 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FCBEE275E7EF9DAEF7F1A6A68444A565 /* BaseViewClass.podspec */,
+				71A3FCDEC31CE1C111BBAD66A7E2C4BF /* LICENSE */,
+				CFC1557D2B6736BBBBEADDB506B10FB8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		CE56CC6BD28EEB0788E7CA79FAC322BB /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,7 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				071AA33BDBF9DA2A1582A81A1E6E7A34 /* Development Pods */,
+				BFBC20BFFB2B018361341B3779A77890 /* Development Pods */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
 				FF8CFA715FC0D63E42378247C419C80D /* Products */,
 				CE56CC6BD28EEB0788E7CA79FAC322BB /* Targets Support Files */,
@@ -278,6 +279,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		10C0DE658491739AA18C8FF0203150FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7CCA73A1374E0E507B2C07C9FBBF78 /* BaseDefines.h in Headers */,
+				BEF378783703F4B386B71974BDF569A4 /* BaseNavigationBar.h in Headers */,
+				183987CAA73BDDA2FA6EE3107AEF0387 /* BaseNavigationController.h in Headers */,
+				E2C0F97362664649D2B0BAC1C9EC4E8E /* BaseTabBarViewController.h in Headers */,
+				243427A0F9252E37F8EF48833FA4985E /* BaseUISize.h in Headers */,
+				CC11816DEE211CFDD73983673803F0EE /* BaseViewClass-umbrella.h in Headers */,
+				5A8A3E1445CDF5EAE58A9390EECD4FF0 /* BaseViewClass.h in Headers */,
+				7DC599CD2F25B4450E4545BAD04617F2 /* BaseViewController.h in Headers */,
+				54F3E7EEB201A5AFB92050D7759EA2EA /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		367D3524D314B12BA227DAD80C4B9FBE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,32 +311,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B527193AFC547714A6F478EA688BD26D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0F32C95B7355C38BA8EF60B247AEE5D /* BaseNavigationBar.h in Headers */,
-				0A0D7E27A426FDE4F1F797990AF97DA2 /* BaseNavigationController.h in Headers */,
-				B7C44105C44D2C6A91CE8FF329D03E18 /* BaseTabBarViewController.h in Headers */,
-				C0BB5060D512DF6C3A39EDDDDFA6CA5E /* BaseUISize.h in Headers */,
-				959DDBBB606A71636A31773A08B3FAF2 /* BaseViewClass-umbrella.h in Headers */,
-				6A3AF881EBABA0F824C643F071A54384 /* BaseViewClass.h in Headers */,
-				0C0BEA5AFEB8589D3FB444850ACD65C2 /* BaseViewController.h in Headers */,
-				99D8B7E9E9AF9A24C6BA641903B51E60 /* ControllerPopByInteractivePopGestureRecognizer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4EA1C201459E9FCAE7046B792DC7229B /* BaseViewClass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2FF82EB6047DED75946530BA44CD9354 /* Build configuration list for PBXNativeTarget "BaseViewClass" */;
+			buildConfigurationList = 53FD893A6D440007D93C32E68F9E2EAC /* Build configuration list for PBXNativeTarget "BaseViewClass" */;
 			buildPhases = (
-				B527193AFC547714A6F478EA688BD26D /* Headers */,
-				D5D020A74BF06F666AD1E4BEB1198329 /* Sources */,
-				E6B53CE31FB5C5DCB7DA2617FBAE40B5 /* Frameworks */,
-				243E2D3BF13AC347BE1331AAA73DD432 /* Resources */,
+				10C0DE658491739AA18C8FF0203150FF /* Headers */,
+				A044181C424FD4CB57CE321BC1BC3AED /* Sources */,
+				E5B65FD5B3D94E3486A6B56615894F39 /* Frameworks */,
+				4FA8F9DE4A0750D7CBBFC2761E1CC1A0 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -397,11 +399,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		243E2D3BF13AC347BE1331AAA73DD432 /* Resources */ = {
+		4FA8F9DE4A0750D7CBBFC2761E1CC1A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C8C24EDADABA9F7F5FA6F7EC3ED0B3D /* BaseImage.bundle in Resources */,
+				7C59809DB7F69018990D6DCA311AF0E8 /* BaseImage.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,24 +424,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A044181C424FD4CB57CE321BC1BC3AED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741FA8B08885712E54017041FB60B5C8 /* BaseNavigationBar.m in Sources */,
+				18CD85AA726762E0DAFC5404ECEBBE11 /* BaseNavigationController.m in Sources */,
+				2252DEA328F4D9616ADAD214D3D89C23 /* BaseTabBarViewController.m in Sources */,
+				BB077A8F6C4E9A108FABE8FD3EF60E34 /* BaseUISize.m in Sources */,
+				0863DC943171BC842883DBD2D96055E3 /* BaseViewClass-dummy.m in Sources */,
+				4F978B81A42B176D35DC2A121710DC5D /* BaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D242AF074D9A0A2D6418E653EB74ADAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2B260146547E1BC81B0E10FCAF00096E /* Pods-BaseViewClass_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5D020A74BF06F666AD1E4BEB1198329 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C85277F120DC31C94E2071C9F81D9481 /* BaseNavigationBar.m in Sources */,
-				2262906BFAFC1FEFF7D05820266717D5 /* BaseNavigationController.m in Sources */,
-				01FF2A851C17EC438767A5CA5878DBD4 /* BaseTabBarViewController.m in Sources */,
-				C3AD28413F573D4DF7468BE056A592E7 /* BaseUISize.m in Sources */,
-				C1A3A74CE55F6303D70EA3756248D0C8 /* BaseViewClass-dummy.m in Sources */,
-				A223F5B8565D7B69AB84CD58A1A14649 /* BaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,11 +558,43 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		61E64F63FACEA191263B274DF6373FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBCC45BAB64F1793E22908D78A4AF79 /* BaseViewClass.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BaseViewClass/BaseViewClass-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BaseViewClass/BaseViewClass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BaseViewClass/BaseViewClass.modulemap";
+				PRODUCT_MODULE_NAME = BaseViewClass;
+				PRODUCT_NAME = BaseViewClass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		6A85367441FCD5A4BCC2E3F6610B85F3 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -693,9 +727,9 @@
 			};
 			name = Debug;
 		};
-		8CD3F87F2B8569FC0CADCF682C9FC445 /* Release */ = {
+		B28F70187149B3C12D9092513671C3DE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 845C795B6CA5D297B3FEE99D5038AEB0 /* BaseViewClass.xcconfig */;
+			baseConfigurationReference = 5BBCC45BAB64F1793E22908D78A4AF79 /* BaseViewClass.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -724,37 +758,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9B8F5B0590D1CDDB402F123997637CB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 845C795B6CA5D297B3FEE99D5038AEB0 /* BaseViewClass.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BaseViewClass/BaseViewClass-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BaseViewClass/BaseViewClass-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BaseViewClass/BaseViewClass.modulemap";
-				PRODUCT_MODULE_NAME = BaseViewClass;
-				PRODUCT_NAME = BaseViewClass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		F2BC4930870AB563FDBD10EDAC8881E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -801,20 +804,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2FF82EB6047DED75946530BA44CD9354 /* Build configuration list for PBXNativeTarget "BaseViewClass" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B8F5B0590D1CDDB402F123997637CB9 /* Debug */,
-				8CD3F87F2B8569FC0CADCF682C9FC445 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
 				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53FD893A6D440007D93C32E68F9E2EAC /* Build configuration list for PBXNativeTarget "BaseViewClass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E64F63FACEA191263B274DF6373FA8 /* Debug */,
+				B28F70187149B3C12D9092513671C3DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
