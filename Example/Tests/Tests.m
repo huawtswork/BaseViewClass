@@ -1,10 +1,4 @@
-//
-//  BaseViewClassTests.m
-//  BaseViewClassTests
-//
-//  Created by huawentao on 08/06/2019.
-//  Copyright (c) 2019 huawentao. All rights reserved.
-//
+
 
 @import XCTest;
 

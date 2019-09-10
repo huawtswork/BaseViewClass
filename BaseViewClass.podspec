@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BaseViewClass'
-  s.version          = '1.0.2'
+  s.version          = '1.0.0'
   s.summary          = 'BaseViewClass'
   s.description      = <<-DESC
   BaseViewContoller:普通控制器
